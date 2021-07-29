@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+</head>
+<body>
+<h1>students registration form</h1>
+<hr>
+<form action="mailto:collinsyogoh@gmail.com" method="post">
+  <h2><u>personal information</u></h2>
+  <label for=""><b>id/passport number : </b></label>
+  <input type="text" name="id_pass" placeholder="* your id /passport number" required>
+  &nbsp;
+  <label for=""><b>surname : </b></label>
+  <input type="surname" name="s_name" placeholder="* your surname" required>
+  &nbsp;
+  <label for=""><b>other names: </b></label>
+  <input type="other names" name="other_name" placeholder="* other surname" required>
+  &nbsp;
+  <label for=""><b>gender : </b></label>
+  <input type="radio" name="gender"  value="male" required>&nbsp; male
+  <input type="radio" name="gender"  value="female" required>&nbsp; female
+  &nbsp;<br><br>
+  <label for=""><b>age : </b></label>
+  <input type="number" name="age" placeholder="* your age" required min="18" max="80">
+  &nbsp;
+  <label for=""><b>birthdate: </b></label>
+  <input type="date" name="dob"  required>
+  &nbsp;
+  <label for=""><b>marital status : </b></label>
+  <select name="mstatus" id="" required>
+    <option value="single">single</option>
+    <option value="married">married</option>
+    <option value="divorced">divorced</option>
+    <option value="widowed">widowed</option>
+    <option value="separated">separated</option>
+  </select>
+  &nbsp;
+  <label for=""><b>email address : </b></label>
+  <input type="email" name="email" placeholder="* your email address" required>
+  &nbsp;
+  <h2><u>select hobby(ies)</u></h2>
+  <input type="checkbox" name="hobby" value="watching movies">&nbsp;watching movies <br>
+  <input type="checkbox" name="hobby" value="singing">&nbsp;singing <br>
+  <input type="checkbox" name="hobby" value="dancing">&nbsp;dancing <br>
+  <input type="checkbox" name="hobby" value="coding">&nbsp;coding <br>
+  <input type="checkbox" name="hobby" value="listening to music">&nbsp;listening to music <br>
+  <h2><u>comments</u></h2>
+  <textarea name="" id="" cols="70" rows="20" placeholder="your comments"></textarea>
+  <hr>
+  <input type="submit" value="submit application">&nbsp;
+  <button type="reset">clear form data</button>
+</form>
+</body>
+</html>

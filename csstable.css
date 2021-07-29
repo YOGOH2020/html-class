@@ -1,0 +1,35 @@
+table,tr,th,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+
+}
+th{
+    height: 60px;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "Cantarell Thin";
+}
+td{
+    height: 40px;
+    text-align: center;
+    font-family: "Cantarell Extra Bold";
+    color: black;
+    font-size: 18px;
+}
+ tr:hover{
+     background: aqua;
+ }
+ tr:nth-child(odd){
+     background: darkgreen;
+ }
+ .topheader{
+     background: blueviolet;
+     font-size: 25px;
+     font-family: "Bitstream Vera Sans";
+     color: aquamarine;
+ }
